@@ -6,8 +6,8 @@ import './styles/Form.css'
     return (
         
         <form onSubmit={props.getWeather}>
-            <input type="text" name="city" placeholder="CityName:"/>
-            <input type="text" name="country" placeholder="CountryName:"/>
+            <input id="city" type="text" name="city" placeholder="CityName:"/>
+            <input id="country" type ="text" name="country" placeholder="CountryName:"/>
             <button id="btn-weather">Get Weather Info</button>
         </form>
         

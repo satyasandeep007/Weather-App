@@ -1,3 +1,31 @@
 #btn-weather{
-    text-decoration-color: brown
+    background-color: tomato;
+    text-decoration-color: black;
+    padding: 0.25%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #9966ff, #ff5050;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin: 10px; */
+}
+
+input{
+    display: flex;
+    /* width: 15%; */
+    padding: 10px 20px;
+    /* margin: 1% 0; */
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#city{
+    
+    /* margin: 10px; */
+}
+
+#country{
+    
+    /* margin: 10px; */
 }
