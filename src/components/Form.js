@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 import './styles/Form.css'
 
  const Form = props => {
@@ -7,7 +8,7 @@ import './styles/Form.css'
         <form onSubmit={props.getWeather}>
             <input type="text" name="city" placeholder="CityName:"/>
             <input type="text" name="country" placeholder="CountryName:"/>
-            <button>Get Weather Info</button>
+            <button id="btn-weather">Get Weather Info</button>
         </form>
         
     )

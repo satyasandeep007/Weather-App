@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+
 
 const Weather = props => {
     
     return (
         <div>
+               
                { props.city && <p>Location: { props.city }, { props.country }</p>} 
                { props.temperature && <p>Temperature: { props.temperature }</p>}
                { props.humidity && <p>Humidity: { props.humidity }</p>}
